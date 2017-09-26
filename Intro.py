@@ -5,21 +5,21 @@
 while True:
     try:
         print('\n')
-        contenedor = float(input('-Introduce la capacidad con la que agrupar (MB): '))
+        contenedor = float(input('-Bin size: '))
         if contenedor <= 0:
-            print(u'\n # Error: ¡¡¡ debe ser un numero positivo y mayor que cero !!!  #\n')
+            print(u'\n # Error: ¡¡¡ It must be major than zero !!!  #\n')
         else:
             break
     except:
-        print(u'\n #  Error: ¡¡¡recuerda que debe ser un numero!!!  #\n')
+        print(u'\n #  Error: ¡¡¡ It must be a number !!!  #\n')
 
 
 ##--------------------------------------------------------------------------------------
 # Introducimos la lista de elemntos con sus tamaños
 ##--------------------------------------------------------------------------------------
 
-elementos = input( "Introduce la lista de los elementos:" )
-lista_elementos = input( "Introduce la lista de los nombres de los elementos: " )
+elementos = input( "List of elements sizes:" )
+lista_elementos = input( "List of element's names: " )
 
 
 ##---------------------------------------------------------------------------------------
